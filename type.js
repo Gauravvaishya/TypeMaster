@@ -44,7 +44,6 @@ function check(){
 		document.querySelector('#subject').style.borderColor = 'blue';
 		var h = Math.floor(count / e );
 		document.getElementById('word').innerHTML = h+ " WPM";
-		console.log(flag);
 		document.getElementById('acc').innerHTML = Math.floor((((f-flag)/f) * 100)) +"% Accuracy";
 
 		clearInterval(total);
