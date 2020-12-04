@@ -1,0 +1,43 @@
+#head{
+	background-color: rgb(2, 1, 23);
+}
+#text{
+	background-color: rgb(7, 175, 181);
+}
+#test{
+	background-color: #d9d9d9;
+	color: black;
+    border: none;
+}
+#subject{
+	 
+	  border: 7px solid grey;
+	 border-radius: 10px;
+}
+#but{
+	padding: 10px 25px;
+	float: right;
+	color: #ff4000;
+	background-color: white;
+	border: 3px solid #ff4000; 
+}
+#but:hover{
+	background-color:#ff4000;
+	color: white; 
+}
+.time1{
+	color: black;
+	font-size: 30px;
+	float: left;
+
+}
+#word{
+	font-size: 30px;
+	text-align: center;
+    
+}
+#acc{
+	font-size: 30px;
+	text-align: center;
+	
+}
