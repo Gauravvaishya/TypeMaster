@@ -1,10 +1,13 @@
  
 
-
+var store = ["Expresses what the person name animal place, or concept does.","A dependent clause is not a complete sentence. It must be attached.","It must be attached to an independent clause to become complete.","If a sentence begins with a dependent clause, note the comma after this clause.","Note that there is no comma in this sentence because it begins with an independent clause.","Note that these videos were created while APA was the style guide edition in use.","She completed her literature review, but she still needs to work on her methods section.","he decided to arrange them chronologically, and he carefully followed the MEAL."]
+var print = Math.floor(Math.random() * 8);
+var text = store[print];
+document.getElementById('test').innerHTML = text;
 var e;
 var flag = 0;
 var count = 1; 
-var text = document.querySelector('#test').innerHTML;
+
 var f = text.length;
 for(var m=0;m<text.length;m++){
 	if(text[m] == " "){
