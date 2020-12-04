@@ -84,6 +84,8 @@ function startover(){
 	timer = [0,0,0,0];
 	running = false;
 	document.querySelector('#subject').value = "";
+	document.getElementById('word').innerHTML= "";
+	document.getElementById('acc').innerHTML = "";
     t.innerHTML = "00:00:00";
     subject.style.borderColor = "grey";
 }
